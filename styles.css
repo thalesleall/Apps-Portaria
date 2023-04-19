@@ -12,9 +12,35 @@
 
 .liberacoes{
     display: flex;
-    width: 40vw;
+    width: 80vw;
     margin: 0 auto;
     border: 2px solid black;
-    height: 60vh;
-
+    height: 90vh;
 }
+.morador{
+    display: flex;
+    border: 2px solid red;
+    margin: auto;
+    justify-content: center;
+    width: 45%;
+    height: 80%;
+    align-items: center;
+    flex-direction: column;
+}
+#nome_morador{
+    padding:  5px 40px;
+}
+#lote{
+    padding: 5px;
+}
+.liberado{
+    display: flex;
+    border: 2px solid blue;
+    margin: auto;
+    justify-content: center;
+    width: 45%;
+    height: 80%;
+    align-items: center;
+    flex-direction: column;    
+}
+
