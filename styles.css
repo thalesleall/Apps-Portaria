@@ -10,7 +10,7 @@
     display: flex;
     align-items: center;
 }
-/* .morador input{
+.morador input{
     padding: 0.3rem 1rem;
     border: 1px solid red;
     border-radius: 4px;
@@ -19,7 +19,7 @@
     padding: 2px;
     border-radius: 3px;
     border: 1px solid red;
-} */
+} 
 
 .input_liberacoes{
     display: inline-flex;
@@ -28,6 +28,9 @@
 
 }
 
+.adicionar{
+    margin-top: 10px;
+}
 .liberacoes{
     display: flex;
     width: 750px;
