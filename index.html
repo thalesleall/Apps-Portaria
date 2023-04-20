@@ -20,21 +20,31 @@
     <div name="page" class="container">
         <div class="liberacoes">
             <div class="morador">
-                <h2>Morador</h2>
+                <label type="radio" for="nome_morador"><h2>Morador</h2></label>
                 <input type="text" id="nome_morador" placeholder="Nome ">
                 <br>
-                <p><b>Lote</b></p>
+                <label type="radio" for="lote"><p><b>Lote</b></p></label>
                 <input type="text" id="lote" placeholder="quadra-lote">
+                <br>
+                
+                
+                <label type="radio" for="liberado"><h2>Liberação</h2></label>
+                <input id="liberado" type="text" placeholder="Nome">
+                <br>
+                <label type="radio" for="Cpf"><p style="text-align: center;"><b>Cpf</b></p></label>
+                <input id="Cpf" oninput="mascara(this)" type="text">
+                <br>
+                <label type="radio" for="data"><p><b>Data</b></p></label>
+                <input type="datetime-local" name="data" id="data">
+                <br>
+                <button>Submmit</button>
             </div>
             <div class="liberado">
-                <h2>Liberação</h2>
-                <br>
-                <p><b>Nome</b></p><input id="liberado" type="text">
-                <br>
-                <p style="text-align: center;"><b>Cpf</b><br>(se houver)</p><input id="liberado" type="text">
+                
             </div>
         </div>
     </div>    
 </body>
+<script src="scripts.js"></script>
 
 </html>
