@@ -26,18 +26,15 @@
                 <label type="radio" for="lote"><p><b>Lote</b></p></label>
                 <input type="text" id="lote" placeholder="quadra-lote">
                 <br>
-                
-                
-                <label type="radio" for="liberado"><h2>Liberação</h2></label>
+                <h2>Liberação</h2>
+                <div class="input_liberacoes">
                 <input id="liberado" type="text" placeholder="Nome">
-                <br>
-                <label type="radio" for="Cpf"><p style="text-align: center;"><b>Cpf</b></p></label>
-                <input id="Cpf" oninput="mascara(this)" type="text">
-                <br>
-                <label type="radio" for="data"><p><b>Data</b></p></label>
+                <input id="Cpf" oninput="mascara(this)" placeholder="CPF" type="text">
                 <input type="datetime-local" name="data" id="data">
+                <button><ion-icon name="add-outline"></ion-icon></button>
                 <br>
-                <button>Submmit</button>
+                </div>
+
             </div>
             <div class="liberado">
                 
@@ -46,5 +43,7 @@
     </div>    
 </body>
 <script src="scripts.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
 </html>
