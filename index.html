@@ -30,7 +30,7 @@
                 
                 <br>
                 
-                <h2>Liberação</h2>
+                <h2>Liberação</h2> 
                 <div class="input_liberacoes">
                 
                 <input id="liberado" type="text" placeholder="Nome">
@@ -38,20 +38,17 @@
                 <input id="Cpf" oninput="mascara(this)" placeholder="CPF" type="text">
                 
                 <input type="datetime-local" name="data" id="data">
-                
-                <button><ion-icon name="add-outline"></ion-icon></button>
-                
                 <br>
                 </div>
+                <button onclick="message()" class="add-more">Adicionar<ion-icon name="add-outline"></ion-icon></button>
                 <div>
                     <button class="adicionar"><b>Adicionar!</b></button>
                 </div>
-                <div>
-                    texto
-                </div>
-
             </div>
             <div class="liberado">
+                <tbody id="tbody">
+                    
+                </tbody>
             </div>
         </div>
     </div>    
