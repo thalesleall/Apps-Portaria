@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Portaria</title>
+
+    <group //Links></group>
+    <link href="./styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div name="page" class="container">
+        <div class="liberacoes">
+            <div class="morador">
+                <form id="form">
+                    <label for="morador">Morador:</label>
+                    <input type="text" id="morador" name="morador" /*required*/>
+            
+                    <label for="lote">Lote:</label>
+                    <input type="text" id="lote" name="lote" /*required*/>
+            
+                    <label for="pessoa_liberada">Nome da pessoa liberada:</label>
+                    <input type="text" id="pessoa_liberada" name="pessoa_liberada" /*required*/>
+            
+                    <label for="data_inicial">Data inicial:</label>
+                    <input type="date" id="data_inicial" name="data_inicial" /*required*/>
+            
+                    <label for="data_final">Data final:</label>
+                    <input type="date" id="data_final" name="data_final" /*required*/>
+
+                    <button type="submit">Adicionar</button>
+                
+                    </form>
+            </div>
+            <div class="liberado">
+                <table id="table">
+                    
+                    <thead>
+                        <tr>
+                        <th>Morador</th>
+                        <th>Lote</th>
+                        <th>Nome da pessoa liberada</th>
+                        <th>Data inicial</th>
+                        <th>Data final</th>
+                        <th>Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Dados serão adicionados dinamicamente com JavaScript -->
+                    </tbody>
+                    </table>
+            </div>
+        </div>
+    </div>    
+</body>
+<script src="./scripts.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</html>
